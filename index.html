@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+	<header class="container">
+		<h1>Breaking Bad Trivia!</h1>
+		<div class="button"> 
+			<button class="center" id="startBtn"><img src="assets/images/button.png">Start</button>
+		</div>
+		<p id="timerText" class="center">Time Left: <span id="timer"></span> <p>
+	</header>
+	
+	<div id="resultText" class="container center">
+		<p>Correct Answers: <span id="correct"></span></p>
+		<p>Incorrect Answers: <span id="incorrect"></span></p>
+		<p>Unanswered Questions: <span id="unanswered"></span></p>
+	</div>
+	
+	<div class="container">
+		<ol id="allQuest">
+			<li>
+				<h3 id="quest1">1.  After it turn out to be fire engines and not police, Walt and Jesse leave the dessert taking the RV with them, but they fail to clean up their crime scene properly, what item did they leave behid whihc the DEA later find? </h3>
+				<form id="ans1">
+					<input id="a1" type="radio" name="q1" value="wrong">Walt's wedding ring<span></span><br>
+					<input id="b1" type="radio" name="q1" value="correct">Gasmask<span></span><br>
+					<input id="c1" type="radio" name="q1" value="wrong">Equipment marked J. P. Wynne High School<span></span><br>
+					<input id="d1" type="radio" name="q1" value="wrong">A camcorder<span></span><br>
+				</form>
+			</li>
+			<li>
+				<h3 id="quest2">2.  Episode 2 season 1, "Cat's In The Bag", what item falls through the floor of Jesse's home?</h3>
+				<form id="quest2">
+					<input id="a2" type="radio" name="q2" value="wrong">Walt<span></span><br>
+					<input id="b2" type="radio" name="q2" value="wrong">Part of the roof<span></span><br>
+					<input id="c2" type="radio" name="q2" value="wrong">Walt<span></span><br>
+					<input id="d2" type="radio" name="q2" value="correct">Bathtub<span></span><br>
+				</form>
+			</li>			
+		</ol>
+		<div class="button">
+			<button  id="submit"><img src="assets/images/button.png">Submit</button>
+		</div>
+		
+	</div>
+
+	
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
+
+
+<!--<li>
+		<h3>Quesion 3</h3>
+		<form id="quest3">
+			<input type="radio" name="q3"><span></span><br>
+			<input type="radio" name="q3"><span></span><br>
+			<input type="radio" name="q3"><span></span><br>
+			<input type="radio" name="q3"><span></span><br>
+		</form>
+	</li> -->
+
